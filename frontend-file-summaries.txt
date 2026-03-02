@@ -1,0 +1,13 @@
+{
+  "frontend/src/index.css": "Global styles with OKLCH color system using deep navy blue and orange/gold volleyball theme, custom font imports (Oswald + Inter), and reusable component classes for buttons, nav links, and cards.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with custom navy/gold color tokens, Oswald/Inter font families, and animation keyframes for the volleyball coaching theme.",
+  "frontend/src/App.tsx": "Main app component with TanStack Router setup for five pages (Home, About, Programs, Pricing, Contact) wrapped in a layout with Navigation and Footer.",
+  "frontend/src/components/Navigation.tsx": "Sticky responsive navigation bar with the new Volleyball Basic branded logo image, desktop nav links with active state highlighting, and a mobile hamburger menu with slide-down panel.",
+  "frontend/src/components/Footer.tsx": "Footer with logo, quick links, social media icons (WhatsApp, Facebook, Instagram) with correct URLs, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for submitting contact messages (useMutation) and fetching all contact messages (useQuery) via the backend actor.",
+  "frontend/src/pages/Home.tsx": "Home page with full-width hero section (background image, CTA, $200/month callout), stats bar, 6 program cards grid, coach teaser section, and bottom CTA banner.",
+  "frontend/src/pages/AboutCoach.tsx": "About Coach page featuring Yash Bhardwaj's profile, stats, bio, mission statement, coaching highlights, and values checklist with CTAs.",
+  "frontend/src/pages/TrainingPrograms.tsx": "Training Programs page with six detailed program cards (image, tag, description, 4 benefit bullets each) and a bottom CTA section. The Setter Specific Training card now uses the new volleyball action photo at '/assets/generated/volleyball-action-setter.dim_1024x1024.jpg' instead of the old setter-training image.",
+  "frontend/src/pages/Pricing.tsx": "Pricing page with $200/month coaching plan card, full inclusions list, 3-step how-it-works section, FAQ accordion, and CTA.",
+  "frontend/src/pages/Contact.tsx": "Contact page with WhatsApp/Facebook/Instagram social links, validated contact form (name, email, phone, message) with backend submission, loading states, and success confirmation."
+}

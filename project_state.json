@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Professional sports coaching website for volleyball coach Yash Bhardwaj. Multi-page site named 'Volleyball Basic' designed to convert visitors into paying coaching clients. Features home, about, training programs (6 services), pricing, and contact pages. Modern volleyball-themed design, mobile-friendly.",
+  "architectural_notes": [
+    "Multi-page static website with pages: Home, About, Training Programs, Pricing, Contact",
+    "Modern volleyball-themed design, mobile-friendly with strong CTA buttons",
+    "Social links: WhatsApp +919412574143, Facebook (Yash Bhardwaj), Instagram (@volleyball_basic)"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Volleyball championship match action photo: female player in blue 'Stars 7 Sarah' jersey jumping to set a Molten volleyball at the net, crowded gymnasium with 'Championship Volleyball' banners in background (volleyball-action-setter.dim_1024x1024.jpg)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-multi-page-react-frontend-with-client-side-routing-supporting-five-pages-home-about-coach-training-programs-pricing-and-contact-include-a-persistent-responsive-navigation-bar-with-the-volleyball-basic-brand-name-and-links-to-all-five-pages-plus-a-footer-with-social-media-links-and-copyright-information",
+      "title": "Create a multi-page React frontend with client-side routing supporting five pages: Home, About Coach, Training Programs, Pricing, and Contact. Include a persistent responsive navigation bar with the 'Volleyball Basic' brand name and links to all five pages, plus a footer with social media links and copyright information.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-home-page-with-1-a-full-width-hero-section-with-the-headline-volleyball-basic-a-subheadline-about-professional-volleyball-coaching-a-prominent-hire-me-as-your-coach-cta-button-and-a-starting-at-200-month-pricing-callout-2-a-brief-services-overview-section-showcasing-the-6-training-programs-with-icons-3-a-coach-introduction-teaser-with-yash-bhardwaj-s-name-and-5-years-experience-4-a-second-cta-section-urging-visitors-to-sign-up",
+      "title": "Build the Home page with: (1) a full-width hero section with the headline 'Volleyball Basic', a subheadline about professional volleyball coaching, a prominent 'Hire Me as Your Coach' CTA button, and a 'Starting at $200/month' pricing callout; (2) a brief services overview section showcasing the 6 training programs with icons; (3) a coach introduction teaser with Yash Bhardwaj's name and 5+ years experience; (4) a second CTA section urging visitors to sign up.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-about-coach-page-featuring-coach-yash-bhardwaj-s-name-and-title-a-section-highlighting-5-years-of-volleyball-coaching-experience-his-mission-statement-help-players-improve-performance-jump-higher-and-avoid-injuries-a-placeholder-area-for-a-coach-photo-and-a-cta-directing-visitors-to-the-training-programs-or-contact-page",
+      "title": "Build the About Coach page featuring: Coach Yash Bhardwaj's name and title, a section highlighting 5+ years of volleyball coaching experience, his mission statement ('Help players improve performance, jump higher, and avoid injuries'), a placeholder area for a coach photo, and a CTA directing visitors to the Training Programs or Contact page.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-training-programs-page-with-six-individual-service-cards-each-containing-a-title-short-description-and-key-benefits-for-players-the-six-programs-are-1-vertical-jump-training-explosive-jump-development-for-volleyball-players-2-setter-specific-training-decision-making-footwork-setting-accuracy-3-attacker-specific-training-approach-mechanics-arm-swing-spike-power-4-blocker-specific-training-timing-footwork-reading-hitters-5-strength-and-conditioning-training-sport-specific-strength-for-volleyball-6-injury-recovery-and-rehabilitation-safe-return-to-play-for-volleyball-athletes-each-card-should-have-a-get-started-or-hire-me-cta-linking-to-the-contact-page",
+      "title": "Build the Training Programs page with six individual service cards, each containing a title, short description, and key benefits for players. The six programs are: (1) Vertical Jump Training – explosive jump development for volleyball players; (2) Setter Specific Training – decision making, footwork, setting accuracy; (3) Attacker Specific Training – approach mechanics, arm swing, spike power; (4) Blocker Specific Training – timing, footwork, reading hitters; (5) Strength and Conditioning Training – sport-specific strength for volleyball; (6) Injury Recovery and Rehabilitation – safe return-to-play for volleyball athletes. Each card should have a 'Get Started' or 'Hire Me' CTA linking to the Contact page.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-pricing-page-with-a-single-online-coaching-plan-priced-at-200-month-the-plan-card-should-list-inclusions-personalized-training-plan-custom-drills-and-1-on-1-guidance-include-a-get-started-cta-button-linking-to-the-contact-page-add-a-brief-faq-or-reassurance-section-e-g-what-s-included-how-it-works-to-reduce-purchase-friction",
+      "title": "Build the Pricing page with a single Online Coaching Plan priced at $200/month. The plan card should list inclusions: personalized training plan, custom drills, and 1-on-1 guidance. Include a 'Get Started' CTA button linking to the Contact page. Add a brief FAQ or reassurance section (e.g., 'What's included', 'How it works') to reduce purchase friction.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-contact-page-with-1-a-whatsapp-contact-button-linking-to-https-wa-me-919412574143-that-opens-whatsapp-chat-2-a-facebook-link-to-https-www-facebook-com-share-18pfxeeuyw-mibextid-wwxifr-labeled-yash-bhardwaj-3-an-instagram-link-to-https-www-instagram-com-volleyball-basic-igsh-mwdjenvinm51n3d0aq-3d-3d-utm-source-qr-labeled-volleyball-basic-4-a-contact-inquiry-form-with-fields-for-name-email-phone-optional-message-and-a-submit-button-store-submitted-contact-form-messages-in-the-backend",
+      "title": "Build the Contact page with: (1) a WhatsApp contact button linking to 'https://wa.me/919412574143' that opens WhatsApp chat; (2) a Facebook link to 'https://www.facebook.com/share/18PFxeeuyW/?mibextid=wwXIfr' labeled 'Yash Bhardwaj'; (3) an Instagram link to 'https://www.instagram.com/volleyball_basic?igsh=MWdjenViNm51N3d0aQ%3D%3D&utm_source=qr' labeled 'VOLLEYBALL_BASIC'; (4) a contact inquiry form with fields for Name, Email, Phone (optional), Message, and a Submit button. Store submitted contact form messages in the backend.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-modern-sports-coaching-visual-theme-across-the-entire-site-use-a-bold-color-palette-of-deep-navy-blue-and-vibrant-orange-gold-as-primary-accent-volleyball-inspired-paired-with-clean-sans-serif-typography-the-hero-section-should-use-a-dynamic-high-contrast-design-with-large-headings-all-pages-should-be-fully-mobile-responsive-with-a-clean-grid-based-layout-use-volleyball-relevant-icons-e-g-volleyball-jump-strength-throughout-cta-buttons-must-be-visually-prominent-with-hover-effects",
+      "title": "Apply a cohesive modern sports coaching visual theme across the entire site. Use a bold color palette of deep navy blue and vibrant orange/gold as primary accent (volleyball-inspired), paired with clean sans-serif typography. The hero section should use a dynamic, high-contrast design with large headings. All pages should be fully mobile responsive with a clean grid-based layout. Use volleyball-relevant icons (e.g., volleyball, jump, strength) throughout. CTA buttons must be visually prominent with hover effects.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-existing-logo-image-in-the-navigation-bar-located-at-the-img-element-inside-the-brand-anchor-in-the-sticky-top-navigation-xpath-html-1-body-1-div-1-div-1-header-1-div-1-div-1-a-1-img-1-with-the-newly-uploaded-volleyball-basic-branded-image-save-the-new-image-as-frontend-public-assets-generated-volleyball-basic-logo-png-and-update-the-navigation-component-s-img-src-to-reference-this-new-asset-remove-any-reference-to-the-old-logo-image",
+      "title": "Replace the existing logo image in the navigation bar (located at the <img> element inside the brand anchor in the sticky top navigation, XPath: /html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[1]/a[1]/img[1]) with the newly uploaded 'Volleyball Basic' branded image. Save the new image as 'frontend/public/assets/generated/volleyball-basic-logo.png' and update the Navigation component's img src to reference this new asset. Remove any reference to the old logo image.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-save-the-uploaded-volleyball-action-photo-player-7-sarah-setting-the-ball-at-a-championship-match-as-frontend-public-assets-generated-volleyball-action-setter-dim-1024x1024-jpg-then-in-the-component-that-renders-the-element-at-xpath-html-1-body-1-div-1-div-1-main-1-div-1-section-3-div-1-div-2-a-2-div-1-div-1-replace-the-existing-image-with-the-new-asset-volleyball-action-setter-dim-1024x1024-jpg-remove-any-reference-to-the-old-image-that-was-previously-in-that-slot",
+      "title": "Save the uploaded volleyball action photo (player #7 'Sarah' setting the ball at a championship match) as 'frontend/public/assets/generated/volleyball-action-setter.dim_1024x1024.jpg'. Then, in the component that renders the element at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[2]/a[2]/div[1]/div[1], replace the existing image with the new asset 'volleyball-action-setter.dim_1024x1024.jpg'. Remove any reference to the old image that was previously in that slot.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Home page with intro, CTA 'Hire Me as Your Coach', pricing highlight starting at $200/month",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Coach page for Yash Bhardwaj with 5+ years experience and mission statement",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Training Programs page covering 6 services: Vertical Jump, Setter, Attacker, Blocker, Strength, Injury Recovery",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Pricing page with $200/month online coaching plan including personalized plan, drills, and guidance",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Contact page with WhatsApp (+919412574143), Facebook, Instagram links, and contact form",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Implement a Motoko backend actor to persist contact form submissions. The actor should expose a function to store a contact message (name, email, phone, message, timestamp) and a function to retrieve all stored messages (admin use).",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Replace old image with a new user-provided image on the site",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Volleyball Basic",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

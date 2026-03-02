@@ -1,0 +1,39 @@
+{
+  "kind": "build_request",
+  "title": "Replace image at selected element with new volleyball action photo",
+  "projectName": "Volleyball Basic",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "text": "Save the uploaded volleyball action photo (player #7 'Sarah' setting the ball at a championship match) as 'frontend/public/assets/generated/volleyball-action-setter.dim_1024x1024.jpg'. Then, in the component that renders the element at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[2]/a[2]/div[1]/div[1], replace the existing image with the new asset 'volleyball-action-setter.dim_1024x1024.jpg'. Remove any reference to the old image that was previously in that slot.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "delete old image and add this new image"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The new volleyball action photo is saved at 'frontend/public/assets/generated/volleyball-action-setter.dim_1024x1024.jpg'.",
+        "The element at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[2]/a[2]/div[1]/div[1] displays the new image.",
+        "No reference to the old image remains in that component or element."
+      ]
+    }
+  ],
+  "constraints": [
+    "Only modify the element at the specified XPath. Do not alter other images or sections on the page."
+  ],
+  "nonGoals": [
+    "Changing any other page content, layout, or styling beyond the targeted image replacement.",
+    "Modifying the navigation bar logo or any other image on the site."
+  ],
+  "imageRequirements": {
+    "required": [
+      "Volleyball championship match action photo: female player in blue 'Stars 7 Sarah' jersey jumping to set a Molten volleyball at the net, crowded gymnasium with 'Championship Volleyball' banners in background (volleyball-action-setter.dim_1024x1024.jpg)"
+    ],
+    "edits": []
+  }
+}

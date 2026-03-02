@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-save-the-uploaded-volleyball-action-photo-player-7-sarah-setting-the-ball-at-a-championship-match-as-frontend-public-assets-generated-volleyball-action-setter-dim-1024x1024-jpg-then-in-the-component-that-renders-the-element-at-xpath-html-1-body-1-div-1-div-1-main-1-div-1-section-3-div-1-div-2-a-2-div-1-div-1-replace-the-existing-image-with-the-new-asset-volleyball-action-setter-dim-1024x1024-jpg-remove-any-reference-to-the-old-image-that-was-previously-in-that-slot",
+      "featureTitle": "Save the uploaded volleyball action photo (player #7 'Sarah' setting the ball at a championship match) as 'frontend/public/assets/generated/volleyball-action-setter.dim_1024x1024.jpg'. Then, in the component that renders the element at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[2]/a[2]/div[1]/div[1], replace the existing image with the new asset 'volleyball-action-setter.dim_1024x1024.jpg'. Remove any reference to the old image that was previously in that slot.",
+      "files": [
+        "frontend/src/pages/TrainingPrograms.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Motoko actor defining the backend canister with contact message submission, user profile management, and admin-only access control using a MixinAuthorization pattern.",
+  "feature_evidence.json": "Feature evidence report documenting that the Setter Specific Training card in TrainingPrograms.tsx was updated to use a new volleyball action photo asset.",
+  "frontend-file-summaries.txt": "JSON file containing one-sentence summaries of each frontend source file for documentation and build planning reference.",
+  "frontend/index.css": "Base Tailwind CSS entry point defining OKLCH CSS custom properties for light and dark theme color tokens used throughout the app.",
+  "frontend/index.html": "Minimal HTML shell with a root div and module script entry point for the React/Vite app titled 'Volleyball Basic'.",
+  "frontend/src/App.tsx": "Root React component that sets up TanStack Router with five routes (Home, About, Programs, Pricing, Contact) wrapped in a Navigation and Footer layout.",
+  "frontend/src/components/Footer.tsx": "Site footer with brand logo, quick navigation links, and social media icons (WhatsApp, Facebook, Instagram) linking to the coach's profiles.",
+  "frontend/src/components/Navigation.tsx": "Sticky top navigation bar with logo, desktop nav links with active highlighting, and a mobile hamburger menu with a slide-down panel.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and caches an authenticated or anonymous backend actor using TanStack Query, reinitializing when the Internet Identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides a React context and hook for Internet Identity authentication using DFINITY's AuthClient, exposing login/logout functions and status flags. Includes an `InternetIdentityProvider` component that persists identity across page reloads.",
+  "frontend/src/hooks/useQueries.ts": "Defines React Query hooks for submitting and fetching contact messages via the canister actor. Uses `useMutation` for submissions and `useQuery` for retrieving all messages.",
+  "frontend/src/index.css": "Global stylesheet that imports Google Fonts, sets up Tailwind CSS layers, and defines CSS custom properties for a navy/gold volleyball theme including light and dark mode tokens. Also defines reusable component utility classes like `.btn-primary` and `.section-title`.",
+  "frontend/src/main.tsx": "Application entry point that renders the React app wrapped with `QueryClientProvider` and `InternetIdentityProvider` into the DOM root.",
+  "frontend/src/pages/AboutCoach.tsx": "Page component displaying coach Yash Bhardwaj's bio, stats, highlights, and core values with a navy/gold themed layout. Includes a hero section, photo placeholder, and a call-to-action linking to programs.",
+  "frontend/src/pages/Contact.tsx": "Contact page with a validated form that submits messages to the canister via `useSubmitContactMessage`, plus social media links for WhatsApp, Facebook, and Instagram. Displays success/error states after submission.",
+  "frontend/src/pages/Home.tsx": "Homepage featuring a hero banner, program cards grid, and stats section for a volleyball coaching website. Links to programs and contact pages with navy/gold branding.",
+  "frontend/src/pages/Pricing.tsx": "Renders the Pricing page for Volleyball Basic, displaying a single coaching plan card with inclusions, a WhatsApp CTA, and an FAQ accordion section.",
+  "frontend/src/pages/TrainingPrograms.tsx": "Renders the Training Programs page listing six volleyball-specific program cards (e.g., Vertical Jump, Setter, Attacker) each with an image, description, and benefits list.",
+  "frontend/src/utils/urlParams.ts": "Provides utility functions for reading URL query parameters (supporting both standard and hash-based routing), persisting them to sessionStorage, and cleaning sensitive params from the URL hash.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the default theme with custom navy/gold color palettes, Oswald/Inter font families, custom shadows, accordion animations, and plugins for typography, container queries, and animate.",
+  "project_state.json": "Tracks the overall project state (version 7) for the Volleyball Basic coaching website, documenting architecture, existing features, known issues, and image requirements."
+}
