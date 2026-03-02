@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 7,
+  "projectStateVersion": 19,
   "summary": "Professional sports coaching website for volleyball coach Yash Bhardwaj. Multi-page site named 'Volleyball Basic' designed to convert visitors into paying coaching clients. Features home, about, training programs (6 services), pricing, and contact pages. Modern volleyball-themed design, mobile-friendly.",
   "architectural_notes": [
     "Multi-page static website with pages: Home, About, Training Programs, Pricing, Contact",
@@ -9,7 +9,7 @@
   ],
   "known_issues": [],
   "isFixRequest": false,
-  "imageRequirements": "## Required Images\n- Volleyball championship match action photo: female player in blue 'Stars 7 Sarah' jersey jumping to set a Molten volleyball at the net, crowded gymnasium with 'Championship Volleyball' banners in background (volleyball-action-setter.dim_1024x1024.jpg)",
+  "imageRequirements": "## Edit Images\n- Crop and resize to square portrait format (IMG_1635.jpeg > coach-yash-bhardwaj-v2.dim_800x800.jpg)",
   "existing_features": [
     {
       "id": "feature-create-a-multi-page-react-frontend-with-client-side-routing-supporting-five-pages-home-about-coach-training-programs-pricing-and-contact-include-a-persistent-responsive-navigation-bar-with-the-volleyball-basic-brand-name-and-links-to-all-five-pages-plus-a-footer-with-social-media-links-and-copyright-information",
@@ -82,6 +82,70 @@
         "REQ-10"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-save-the-uploaded-vertical-jump-training-promotional-image-as-frontend-public-assets-generated-volleyball-vertical-jump-training-dim-1024x1024-jpg-in-the-trainingprograms-page-component-locate-the-element-at-xpath-html-1-body-1-div-1-div-1-main-1-div-1-section-3-div-1-div-2-a-1-div-1-div-1-the-first-program-card-s-image-container-and-replace-the-existing-image-with-the-new-asset-volleyball-vertical-jump-training-dim-1024x1024-jpg-remove-any-reference-to-the-old-image-previously-in-that-slot",
+      "title": "Save the uploaded 'Vertical Jump Training' promotional image as 'frontend/public/assets/generated/volleyball-vertical-jump-training.dim_1024x1024.jpg'. In the TrainingPrograms page component, locate the element at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[2]/a[1]/div[1]/div[1] (the first program card's image container) and replace the existing image with the new asset 'volleyball-vertical-jump-training.dim_1024x1024.jpg'. Remove any reference to the old image previously in that slot.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-save-the-newly-uploaded-volleyball-action-photo-player-7-sarah-setting-the-ball-at-a-championship-match-as-frontend-public-assets-generated-volleyball-action-setter-v2-dim-1024x1024-jpg-in-the-trainingprograms-page-component-locate-the-element-at-xpath-html-1-body-1-div-1-div-1-main-1-div-1-section-3-div-1-div-2-a-2-div-1-div-1-the-second-program-card-s-image-container-and-replace-the-existing-image-previously-volleyball-action-setter-dim-1024x1024-jpg-with-the-new-asset-volleyball-action-setter-v2-dim-1024x1024-jpg-remove-any-reference-to-the-old-image",
+      "title": "Save the newly uploaded volleyball action photo (player #7 'Sarah' setting the ball at a championship match) as 'frontend/public/assets/generated/volleyball-action-setter-v2.dim_1024x1024.jpg'. In the TrainingPrograms page component, locate the element at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[2]/a[2]/div[1]/div[1] (the second program card's image container) and replace the existing image — previously 'volleyball-action-setter.dim_1024x1024.jpg' — with the new asset 'volleyball-action-setter-v2.dim_1024x1024.jpg'. Remove any reference to the old image.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-the-uploaded-image-volleyball-vertical-jump-training-dim-1024x1024-jpg-is-correctly-referenced-and-rendered-in-the-first-program-card-vertical-jump-training-on-the-training-programs-page-verify-the-img-src-path-points-to-assets-generated-volleyball-vertical-jump-training-dim-1024x1024-jpg-the-image-file-exists-at-frontend-public-assets-generated-volleyball-vertical-jump-training-dim-1024x1024-jpg-and-the-img-element-has-appropriate-width-height-object-fit-styling-so-it-is-visible-to-the-user",
+      "title": "Ensure the uploaded image 'volleyball-vertical-jump-training.dim_1024x1024.jpg' is correctly referenced and rendered in the first program card (Vertical Jump Training) on the Training Programs page. Verify the img src path points to '/assets/generated/volleyball-vertical-jump-training.dim_1024x1024.jpg', the image file exists at 'frontend/public/assets/generated/volleyball-vertical-jump-training.dim_1024x1024.jpg', and the img element has appropriate width/height/object-fit styling so it is visible to the user.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-the-uploaded-image-volleyball-action-setter-v2-dim-1024x1024-jpg-is-correctly-referenced-and-rendered-in-the-second-program-card-setter-specific-training-on-the-training-programs-page-verify-the-img-src-path-points-to-assets-generated-volleyball-action-setter-v2-dim-1024x1024-jpg-the-image-file-exists-at-frontend-public-assets-generated-volleyball-action-setter-v2-dim-1024x1024-jpg-and-the-img-element-has-appropriate-width-height-object-fit-styling-so-it-is-visible-to-the-user",
+      "title": "Ensure the uploaded image 'volleyball-action-setter-v2.dim_1024x1024.jpg' is correctly referenced and rendered in the second program card (Setter Specific Training) on the Training Programs page. Verify the img src path points to '/assets/generated/volleyball-action-setter-v2.dim_1024x1024.jpg', the image file exists at 'frontend/public/assets/generated/volleyball-action-setter-v2.dim_1024x1024.jpg', and the img element has appropriate width/height/object-fit styling so it is visible to the user.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-the-image-volleyball-vertical-jump-training-dim-1024x1024-jpg-is-correctly-rendered-in-the-first-program-card-vertical-jump-training-on-the-training-programs-page-the-img-src-must-point-to-assets-generated-volleyball-vertical-jump-training-dim-1024x1024-jpg-the-file-must-exist-at-frontend-public-assets-generated-volleyball-vertical-jump-training-dim-1024x1024-jpg-and-the-img-element-must-have-explicit-width-height-and-object-fit-cover-styling-so-the-image-is-visible",
+      "title": "Ensure the image 'volleyball-vertical-jump-training.dim_1024x1024.jpg' is correctly rendered in the first program card (Vertical Jump Training) on the Training Programs page. The img src must point to '/assets/generated/volleyball-vertical-jump-training.dim_1024x1024.jpg', the file must exist at 'frontend/public/assets/generated/volleyball-vertical-jump-training.dim_1024x1024.jpg', and the img element must have explicit width, height, and object-fit: cover styling so the image is visible.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-the-image-volleyball-action-setter-v2-dim-1024x1024-jpg-is-correctly-rendered-in-the-second-program-card-setter-specific-training-on-the-training-programs-page-the-img-src-must-point-to-assets-generated-volleyball-action-setter-v2-dim-1024x1024-jpg-the-file-must-exist-at-frontend-public-assets-generated-volleyball-action-setter-v2-dim-1024x1024-jpg-and-the-img-element-must-have-explicit-width-height-and-object-fit-cover-styling-so-the-image-is-visible",
+      "title": "Ensure the image 'volleyball-action-setter-v2.dim_1024x1024.jpg' is correctly rendered in the second program card (Setter Specific Training) on the Training Programs page. The img src must point to '/assets/generated/volleyball-action-setter-v2.dim_1024x1024.jpg', the file must exist at 'frontend/public/assets/generated/volleyball-action-setter-v2.dim_1024x1024.jpg', and the img element must have explicit width, height, and object-fit: cover styling so the image is visible.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-save-the-uploaded-coach-photo-as-frontend-public-assets-generated-coach-yash-bhardwaj-dim-800x800-jpg-in-the-aboutcoach-page-component-frontend-src-pages-aboutcoach-tsx-replace-the-existing-coach-photo-placeholder-element-with-an-img-tag-that-references-assets-generated-coach-yash-bhardwaj-dim-800x800-jpg-the-image-must-have-explicit-width-height-and-object-fit-cover-styling-so-it-is-fully-visible-remove-any-placeholder-text-or-placeholder-styling-that-was-previously-occupying-the-coach-photo-area",
+      "title": "Save the uploaded coach photo as 'frontend/public/assets/generated/coach-yash-bhardwaj.dim_800x800.jpg'. In the AboutCoach page component (frontend/src/pages/AboutCoach.tsx), replace the existing coach photo placeholder element with an <img> tag that references '/assets/generated/coach-yash-bhardwaj.dim_800x800.jpg'. The image must have explicit width, height, and object-fit: cover styling so it is fully visible. Remove any placeholder text or placeholder styling that was previously occupying the coach photo area.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-save-the-uploaded-coach-photo-img-1635-jpeg-a-young-man-in-a-black-fleece-jacket-holding-a-blue-and-yellow-volleyball-as-frontend-public-assets-generated-coach-yash-bhardwaj-v2-dim-800x800-jpg-in-the-aboutcoach-page-component-frontend-src-pages-aboutcoach-tsx-locate-the-element-at-xpath-html-1-body-1-div-1-div-1-main-1-div-1-section-4-div-1-div-1-div-2-div-1-and-replace-the-existing-image-previously-referenced-there-coach-yash-bhardwaj-dim-800x800-jpg-with-the-new-asset-assets-generated-coach-yash-bhardwaj-v2-dim-800x800-jpg-the-img-element-must-have-explicit-width-height-and-object-fit-cover-styling-so-it-is-fully-visible-remove-any-reference-to-the-old-coach-photo-image",
+      "title": "Save the uploaded coach photo (IMG_1635.jpeg — a young man in a black fleece jacket holding a blue and yellow volleyball) as 'frontend/public/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg'. In the AboutCoach page component (frontend/src/pages/AboutCoach.tsx), locate the element at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[4]/div[1]/div[1]/div[2]/div[1] and replace the existing image previously referenced there (coach-yash-bhardwaj.dim_800x800.jpg) with the new asset '/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg'. The img element must have explicit width, height, and object-fit: cover styling so it is fully visible. Remove any reference to the old coach photo image.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -126,6 +190,18 @@
     {
       "id": "AR-13",
       "summary": "Replace old image with a new user-provided image on the site",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Fix: Both uploaded images are not visible on the website — ensure volleyball-action-setter-v2 and volleyball-vertical-jump-training images are properly displayed on the Training Programs page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-15",
+      "summary": "Add user's (Yash Bhardwaj's) photo to the coach photo placeholder on the About Coach page",
       "reqIds": [],
       "status": "pending"
     }

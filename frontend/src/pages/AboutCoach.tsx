@@ -49,17 +49,19 @@ export default function AboutCoach() {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-            {/* Photo Placeholder + Stats */}
+            {/* Photo + Stats */}
             <div className="flex flex-col items-center gap-6">
               <div
-                className="w-64 h-64 rounded-sm flex items-center justify-center text-7xl font-display font-bold border-4"
-                style={{
-                  backgroundColor: 'oklch(var(--navy-dark))',
-                  borderColor: 'oklch(var(--gold))',
-                  color: 'oklch(var(--gold))',
-                }}
+                className="w-64 h-64 rounded-sm overflow-hidden border-4"
+                style={{ borderColor: 'oklch(var(--gold))' }}
               >
-                YB
+                <img
+                  src="/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg"
+                  alt="Coach Yash Bhardwaj"
+                  width={800}
+                  height={800}
+                  style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                />
               </div>
               <div
                 className="w-full rounded-sm p-6 text-white"

@@ -1,23 +1,23 @@
 {
   "kind": "spec_vs_diff_report",
   "version": "1.0",
-  "generatedAt": "2026-03-02T16:15:49.872Z",
-  "summary": "The diff shows that REQ-10 is implemented in code: the volleyball action photo is referenced at '/assets/generated/volleyball-action-setter.dim_1024x1024.jpg' in the Setter Specific Training card in TrainingPrograms.tsx, and the file-summaries confirm the old setter-training image was replaced. However, the image asset file itself is not shown as added in the diff (listed as 'Added: 0'), which may indicate the asset was not saved.",
+  "generatedAt": "2026-03-02T16:57:39.136Z",
+  "summary": "The diff shows that AboutCoach.tsx was updated to use the new image '/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg' with explicit width, height, and object-fit: cover styling. The old image reference is no longer present. However, the new image file itself (frontend/public/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg) does not appear in the diff as an added file, which means it may not have been saved to the repository.",
   "missing_requirements": [
     {
-      "id": "REQ-10",
-      "requirement": "Save the uploaded volleyball action photo as 'frontend/public/assets/generated/volleyball-action-setter.dim_1024x1024.jpg'.",
-      "reason": "The diff shows 'Added: 0' files and no new image asset file appears in the added files list. The image file itself does not appear to have been saved, though the code references it correctly.",
+      "id": "REQ-18",
+      "requirement": "Save the uploaded coach photo as 'frontend/public/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg'",
+      "reason": "The diff summary shows 'ADDED FILES: none', meaning the new image file was not added to the repository. The acceptance criterion requires the file to exist at 'frontend/public/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg'.",
       "evidence": [
-        "frontend/src/pages/TrainingPrograms.tsx"
+        "frontend/public/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg"
       ]
     }
   ],
   "hallucinated_features": [],
-  "confidence": 0.6,
+  "confidence": 0.85,
   "changed_files": [
     "frontend-file-summaries.txt",
-    "frontend/src/pages/TrainingPrograms.tsx",
+    "frontend/src/pages/AboutCoach.tsx",
     "project_state.json"
   ]
 }

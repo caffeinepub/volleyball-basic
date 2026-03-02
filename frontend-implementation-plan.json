@@ -1,21 +1,22 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Replace image at selected element with new volleyball action photo",
+  "title": "Replace coach photo at section 4 with new uploaded image",
   "requirements": [
     {
-      "id": "REQ-10",
-      "summary": "Replace existing training program image with new volleyball action photo of player #7 Sarah setting the ball",
+      "id": "REQ-18",
+      "summary": "Replace the existing coach photo in section 4 of the AboutCoach page with the new uploaded image (IMG_1635.jpeg) showing Coach Yash in a black fleece jacket holding a volleyball",
       "acceptanceCriteria": [
-        "The new volleyball action photo is saved at 'frontend/public/assets/generated/volleyball-action-setter.dim_1024x1024.jpg'.",
-        "The element at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[2]/a[2]/div[1]/div[1] displays the new image.",
-        "No reference to the old image remains in that component or element."
+        "The new image file exists at 'frontend/public/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg'",
+        "The img src at the targeted XPath location points to '/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg'",
+        "The old coach photo (coach-yash-bhardwaj.dim_800x800.jpg) is no longer referenced in the AboutCoach component",
+        "The image renders visibly with object-fit: cover and explicit width/height styling"
       ],
       "file_operations": [
         {
-          "path": "frontend/src/pages/TrainingPrograms.tsx",
+          "path": "frontend/src/pages/AboutCoach.tsx",
           "operation": "modify",
-          "description": "Replace the image reference in the second program card (Setter Training) with the new generated asset at 'frontend/public/assets/generated/volleyball-action-setter.dim_1024x1024.jpg'. The XPath points to the image container within the second card in the programs grid. Update the src attribute from the current 'generated/setter-training.dim_600x400.png' to '/assets/generated/volleyball-action-setter.dim_1024x1024.jpg'. Remove any reference to the old setter-training image file."
+          "description": "Locate the image element within section 4 (the fourth section div inside the main container at /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[4]/div[1]/div[1]/div[2]/div[1]) that currently references 'coach-yash-bhardwaj.dim_800x800.jpg'. Replace the src attribute to point to the new asset '/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg'. Ensure the img element has explicit width and height attributes (800x800) and includes object-fit: cover styling (either inline style or className) so the image is fully visible and properly cropped. Remove any references to the old coach-yash-bhardwaj.dim_800x800.jpg filename from the component."
         }
       ]
     }

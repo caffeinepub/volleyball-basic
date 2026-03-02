@@ -25,7 +25,7 @@ const programs: Program[] = [
   },
   {
     title: 'Setter Specific Training',
-    image: '/assets/generated/volleyball-action-setter.dim_1024x1024.jpg',
+    image: '/assets/generated/volleyball-action-setter-v2.dim_1024x1024.jpg',
     tag: 'Position Specific',
     description:
       'Master the art of setting with a comprehensive program covering decision-making under pressure, precise footwork patterns, and setting accuracy from every position on the court.',
@@ -126,11 +126,13 @@ export default function TrainingPrograms() {
                 className="bg-card border border-border rounded-sm overflow-hidden card-hover flex flex-col"
               >
                 {/* Image */}
-                <div className="relative overflow-hidden h-52">
+                <div className="relative overflow-hidden" style={{ height: '208px' }}>
                   <img
                     src={program.image}
                     alt={program.title}
-                    className="w-full h-full object-cover"
+                    width={600}
+                    height={400}
+                    style={{ objectFit: 'cover', width: '100%', height: '100%' }}
                   />
                   <div
                     className="absolute inset-0"

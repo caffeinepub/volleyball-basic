@@ -1,7 +1,7 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-03-02T16:15:49.875Z",
+  "generatedAt": "2026-03-02T16:57:39.139Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
@@ -11,14 +11,14 @@
     "implemented": 1,
     "items": [
       {
-        "id": "REQ-10",
-        "summary": "Save the uploaded volleyball action photo (player #7 'Sarah' setting the ball at a championship match) as 'frontend/public/assets/generated/volleyball-action-setter.dim_1024x1024.jpg'. Then, in the component that renders the element at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[2]/a[2]/div[1]/div[1], replace the existing image with the new asset 'volleyball-action-setter.dim_1024x1024.jpg'. Remove any reference to the old image that was previously in that slot.",
+        "id": "REQ-18",
+        "summary": "Save the uploaded coach photo (IMG_1635.jpeg — a young man in a black fleece jacket holding a blue and yellow volleyball) as 'frontend/public/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg'. In the AboutCoach page component (frontend/src/pages/AboutCoach.tsx), locate the element at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[4]/div[1]/div[1]/div[2]/div[1] and replace the existing image previously referenced there (coach-yash-bhardwaj.dim_800x800.jpg) with the new asset '/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg'. The img element must have explicit width, height, and object-fit: cover styling so it is fully visible. Remove any reference to the old coach photo image.",
         "status": "implemented",
         "plannedFiles": [
-          "frontend/src/pages/TrainingPrograms.tsx"
+          "frontend/src/pages/AboutCoach.tsx"
         ],
         "matchedFiles": [
-          "frontend/src/pages/TrainingPrograms.tsx"
+          "frontend/src/pages/AboutCoach.tsx"
         ]
       }
     ]
@@ -28,8 +28,8 @@
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",
-    "frontend/public/assets/generated/volleyball-action-setter.dim_1024x1024.jpg",
-    "frontend/src/pages/TrainingPrograms.tsx",
+    "frontend/public/assets/generated/coach-yash-bhardwaj-v2.dim_800x800.jpg",
+    "frontend/src/pages/AboutCoach.tsx",
     "project_state.json",
     "scratch/component-selection.json",
     "spec.md",
